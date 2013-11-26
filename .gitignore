@@ -1,0 +1,7 @@
+/local-config.php
+.buildpath
+.project
+.settings/
+vendor/
+wordpress/
+composer.phar
