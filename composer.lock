@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e62a754b73440a7d8478252a0742ea97",
+    "hash": "b5a3647cc10aea02b2a0fad5f94f672d",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,12 +130,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/madebydavid/WordpressSkeletonConfigSalter.git",
-                "reference": "26c7fb03f41a9107f40b038a715a173674470c86"
+                "reference": "cdd055a12a185a88bf32ce1c9288d5a5515ec124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/madebydavid/WordpressSkeletonConfigSalter/zipball/26c7fb03f41a9107f40b038a715a173674470c86",
-                "reference": "26c7fb03f41a9107f40b038a715a173674470c86",
+                "url": "https://api.github.com/repos/madebydavid/WordpressSkeletonConfigSalter/zipball/cdd055a12a185a88bf32ce1c9288d5a5515ec124",
+                "reference": "cdd055a12a185a88bf32ce1c9288d5a5515ec124",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
                 }
             ],
             "description": "Salts the wp-config of madebydavid/wordpress-skeleton projects",
-            "time": "2013-11-27 16:36:34"
+            "time": "2013-11-27 17:56:40"
         },
         {
             "name": "wordpress/wordpress",
