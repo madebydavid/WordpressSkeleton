@@ -7,12 +7,12 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', 'DiverseDigitalWordpress' );
-	define( 'DB_USER', 'DiverseDigital' );
-	define( 'DB_PASSWORD', 'CdVe_7+hHneJ%n8aryO=!38a5Se!pz' );
-	define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
-	define('WP_HOME', 'http://www.diversedigital.org');
-	define('WP_SITEURL', 'http://www.diversedigital.org');
+	define( 'DB_NAME', 'WordpressDatabaseName' );
+	define( 'DB_USER', 'WordpressDatabaseUser' );
+	define( 'DB_PASSWORD', 'ch1ng3th1sP4ssw0rd' );
+	define( 'DB_HOST', 'localhost' ); 
+	define( 'WP_HOME', 'http://someplace');
+	define( 'WP_SITEURL', 'http://someplace');
 }
 
 // ========================
