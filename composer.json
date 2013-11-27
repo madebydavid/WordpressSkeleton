@@ -31,7 +31,7 @@
     "require": {
 		"wordpress/wordpress": "3.6.1",
 		"composer/installers": "~1.0",
-		"madebydavid/wordpress-skeleton-config-salter":  "master-dev"
+		"madebydavid/wordpress-skeleton-config-salter":  "0.0.*"
     },
     "autoload": {
         "psr-0": {
