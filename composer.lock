@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "dfa46794e6a8f70d5e1a60dff6fbd660",
+    "hash": "e62a754b73440a7d8478252a0742ea97",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,40 @@
             "time": "2013-09-09 15:04:54"
         },
         {
+            "name": "madebydavid/wordpress-skeleton-config-salter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/madebydavid/WordpressSkeletonConfigSalter.git",
+                "reference": "26c7fb03f41a9107f40b038a715a173674470c86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/madebydavid/WordpressSkeletonConfigSalter/zipball/26c7fb03f41a9107f40b038a715a173674470c86",
+                "reference": "26c7fb03f41a9107f40b038a715a173674470c86",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MadeByDavid": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "madebydavid",
+                    "email": "sutherland.dave@gmail.com"
+                }
+            ],
+            "description": "Salts the wp-config of madebydavid/wordpress-skeleton projects",
+            "time": "2013-11-27 16:36:34"
+        },
+        {
             "name": "wordpress/wordpress",
             "version": "3.6.1",
             "dist": {
@@ -146,9 +180,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "madebydavid/wordpress-skeleton-config-salter": 20
+    },
     "platform": [
 
     ],
