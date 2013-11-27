@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b5a3647cc10aea02b2a0fad5f94f672d",
+    "hash": "8af0007248e8b261145107ec51bd6cad",
     "packages": [
         {
             "name": "composer/installers",
@@ -126,7 +126,7 @@
         },
         {
             "name": "madebydavid/wordpress-skeleton-config-salter",
-            "version": "dev-master",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/madebydavid/WordpressSkeletonConfigSalter.git",
@@ -180,9 +180,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "madebydavid/wordpress-skeleton-config-salter": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
