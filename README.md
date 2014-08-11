@@ -38,9 +38,9 @@ Initialize:
 $ cd vendor/wp-cli/wp-cli/bin/
 $ ./wp --path=../../../../wordpress/ --url="http://my-wordpress-site/" db reset
 $ ./wp --path=../../../../wordpress/ --url="http://my-wordpress-site/" core install \
-    --admin_user=root 
-    --admin_password=password
-    --admin_email=my@email.goes.here.com
-    --title="My Site Title"
+    --admin_user=root \ 
+    --admin_password=password \
+    --admin_email=my@email.goes.here.com \
+    --title="My Site Title" \
 ```
 
