@@ -6,9 +6,9 @@ In it, you *must* include the four main database defines
 You may include other settings here that you only want enabled on your local development checkouts
 */
 
-define( 'DB_NAME', 'DiverseDigital' );
-define( 'DB_USER', 'root' );
-define( 'DB_PASSWORD', '' );
-define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
-define('WP_HOME', 'http://local.diversedigital.org');
-define('WP_SITEURL', 'http://local.diversedigital.org');
+define('DB_NAME', 'my-wordpress-database');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_HOST', 'localhost'); 
+define('WP_HOME', 'http://my-wordpress-site/');
+define('WP_SITEURL', 'http://my-wordpress-site/wordpress');
