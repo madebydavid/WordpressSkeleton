@@ -2,31 +2,31 @@
     "name": "madebydavid/wordpress-skeleton",
     "description": "Wordpress Skeleton",
     "authors": [
-    {
-        "name": "madebydavid",
-        "email": "sutherland.dave@gmail.com"
-    }
+        {
+            "name": "madebydavid",
+            "email": "sutherland.dave@gmail.com"
+        }
     ],
     "repositories":[
         {
             "type":"composer",
             "url":"http://wpackagist.org"
         },
-    {
-        "type": "package",
-        "package": {
-            "name": "wordpress/wordpress",
-            "version": "3.9.2",
-            "dist": {
-                "url":"http://wordpress.org/wordpress-3.9.2.zip",
-                "type":"zip"
-            },
-            "require": {
-                "johnpbloch/wordpress-core-installer": "~0.1"
-            },
-            "type": "wordpress-core"
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "version": "3.9.2",
+                "dist": {
+                    "url":"http://wordpress.org/wordpress-3.9.2.zip",
+                    "type":"zip"
+                },
+                "require": {
+                    "johnpbloch/wordpress-core-installer": "~0.1"
+                },
+                "type": "wordpress-core"
+	    }
         }
-    }
     ],
     "require": {
         "wordpress/wordpress": "3.9.2",
@@ -50,9 +50,9 @@
             ]
         }
     },
-        "scripts": {
-                "post-install-cmd": [
-                        "MadeByDavid\\WordpressSkeletonConfigSalter::salt"
-                ]
-        }
+    "scripts": {
+        "post-install-cmd": [
+            "MadeByDavid\\WordpressSkeletonConfigSalter::salt"
+        ]
+    }
 }
