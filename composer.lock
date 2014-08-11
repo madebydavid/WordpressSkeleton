@@ -1,30 +1,32 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "8af0007248e8b261145107ec51bd6cad",
+    "hash": "7aa1b7576a243fdbc1b6fab434f47579",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.7",
+            "version": "v1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c"
+                "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d792632d27e1980d921cbbba12eab7b888338d4c",
-                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c",
+                "url": "https://api.github.com/repos/composer/installers/zipball/033679ad3cfc5ab759f9ed2a58881aeef13c342b",
+                "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b",
                 "shasum": ""
             },
             "replace": {
+                "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.1.*"
             },
             "type": "composer-installer",
             "extra": {
@@ -46,38 +48,52 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "http://dontkry.com",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
-                "TYPO3 CMS",
-                "TYPO3 Flow",
-                "TYPO3 Neos",
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "WolfCMS",
                 "agl",
+                "annotatecms",
+                "bitrix",
                 "cakephp",
                 "codeigniter",
                 "concrete5",
+                "croogo",
                 "drupal",
+                "elgg",
                 "fuelphp",
                 "installer",
                 "joomla",
                 "kohana",
                 "laravel",
-                "li3",
                 "lithium",
+                "magento",
                 "mako",
+                "mediawiki",
                 "modulework",
+                "moodle",
                 "phpbb",
+                "piwik",
                 "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
                 "silverstripe",
                 "symfony",
+                "typo3",
                 "wordpress",
-                "zend"
+                "zend",
+                "zikula"
             ],
-            "time": "2013-10-24 16:13:49"
+            "time": "2014-07-21 15:54:34"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -126,16 +142,16 @@
         },
         {
             "name": "madebydavid/wordpress-skeleton-config-salter",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/madebydavid/WordpressSkeletonConfigSalter.git",
-                "reference": "cdd055a12a185a88bf32ce1c9288d5a5515ec124"
+                "reference": "3f998be973c8a66706a654384154a846e1b341ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/madebydavid/WordpressSkeletonConfigSalter/zipball/cdd055a12a185a88bf32ce1c9288d5a5515ec124",
-                "reference": "cdd055a12a185a88bf32ce1c9288d5a5515ec124",
+                "url": "https://api.github.com/repos/madebydavid/WordpressSkeletonConfigSalter/zipball/3f998be973c8a66706a654384154a846e1b341ff",
+                "reference": "3f998be973c8a66706a654384154a846e1b341ff",
                 "shasum": ""
             },
             "require": {
@@ -156,14 +172,14 @@
                 }
             ],
             "description": "Salts the wp-config of madebydavid/wordpress-skeleton projects",
-            "time": "2013-11-27 17:56:40"
+            "time": "2013-11-28 12:44:41"
         },
         {
             "name": "wordpress/wordpress",
-            "version": "3.6.1",
+            "version": "3.9.1",
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/wordpress-3.6.1.zip",
+                "url": "http://wordpress.org/wordpress-3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -183,6 +199,7 @@
     "stability-flags": [
 
     ],
+    "prefer-stable": false,
     "platform": [
 
     ],

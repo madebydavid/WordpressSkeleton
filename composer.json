@@ -2,44 +2,44 @@
     "name": "madebydavid/wordpress-skeleton",
     "description": "Wordpress Skeleton",
     "authors": [
-	{
-		"name": "madebydavid",
-		"email": "sutherland.dave@gmail.com"
-	}
+    {
+        "name": "madebydavid",
+        "email": "sutherland.dave@gmail.com"
+    }
     ],
     "repositories":[
         {
             "type":"composer",
             "url":"http://wpackagist.org"
         },
-	{
-		"type": "package",
-		"package": {
-			"name": "wordpress/wordpress",
-			"version": "3.6.1",
-			"dist": {
-				"url":"http://wordpress.org/wordpress-3.6.1.zip",
-				"type":"zip"
-			},
-			"require": {
-				"johnpbloch/wordpress-core-installer": "~0.1"
-			},
-			"type": "wordpress-core"
-		}
-	}
+    {
+        "type": "package",
+        "package": {
+            "name": "wordpress/wordpress",
+            "version": "3.9.2",
+            "dist": {
+                "url":"http://wordpress.org/wordpress-3.9.2.zip",
+                "type":"zip"
+            },
+            "require": {
+                "johnpbloch/wordpress-core-installer": "~0.1"
+            },
+            "type": "wordpress-core"
+        }
+    }
     ],
     "require": {
-		"wordpress/wordpress": "3.6.1",
-		"composer/installers": "~1.0",
-		"madebydavid/wordpress-skeleton-config-salter":  "0.0.*"
+        "wordpress/wordpress": "3.9.2",
+        "composer/installers": "~1.0",
+        "madebydavid/wordpress-skeleton-config-salter":  "0.0.*"
     },
     "autoload": {
         "psr-0": {
         }
     },
     "extra": {
-		"installer-paths": {
-			"content/plugins/{$name}": [
+        "installer-paths": {
+            "content/plugins/{$name}": [
                 "type:wordpress-plugin"            
             ],
             "content/mu-plugins/{$name}" : [
@@ -48,7 +48,7 @@
             "content/themes/{$name}" : [
                 "type:wordpress-theme"
             ]
-		}
+        }
     },
         "scripts": {
                 "post-install-cmd": [
