@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "feb29e52cc8aa90cf7365f80ee18969b",
+    "hash": "1e8f520b5966ebb872bbc18cbbbc3d04",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.16",
+            "version": "v1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b"
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/033679ad3cfc5ab759f9ed2a58881aeef13c342b",
-                "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
                 "shasum": ""
             },
             "replace": {
@@ -64,6 +64,7 @@
                 "annotatecms",
                 "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
                 "concrete5",
                 "croogo",
@@ -93,7 +94,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-07-21 15:54:34"
+            "time": "2014-08-18 20:00:12"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -176,16 +177,16 @@
         },
         {
             "name": "mustache/mustache",
-            "version": "v2.6.1",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "1430ca884912eaba2b3830856b45685733b16789"
+                "reference": "fdf41dd673dc99b41d60992470dbae94ae0b6ba1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/1430ca884912eaba2b3830856b45685733b16789",
-                "reference": "1430ca884912eaba2b3830856b45685733b16789",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fdf41dd673dc99b41d60992470dbae94ae0b6ba1",
+                "reference": "fdf41dd673dc99b41d60992470dbae94ae0b6ba1",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +218,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2014-06-20 19:34:49"
+            "time": "2014-08-26 19:50:10"
         },
         {
             "name": "nb/oxymel",
@@ -351,17 +352,17 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f"
+                "reference": "f40854d1a19c339c7f969f8f6d6d6e9153311c4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/090fe4eaff414d8f2171c7a4748ea868d530775f",
-                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/f40854d1a19c339c7f969f8f6d6d6e9153311c4c",
+                "reference": "f40854d1a19c339c7f969f8f6d6d6e9153311c4c",
                 "shasum": ""
             },
             "require": {
@@ -394,7 +395,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-28 13:20:46"
+            "time": "2014-09-03 09:00:14"
         },
         {
             "name": "wordpress/wordpress",
@@ -412,16 +413,16 @@
         },
         {
             "name": "wp-cli/php-cli-tools",
-            "version": "v0.9.4-patch46",
+            "version": "v0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "02d5ed4cdbab911df91bf06062c8b2705fb0919a"
+                "reference": "89461455b360693da07355460a2597baa0108c1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/02d5ed4cdbab911df91bf06062c8b2705fb0919a",
-                "reference": "02d5ed4cdbab911df91bf06062c8b2705fb0919a",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/89461455b360693da07355460a2597baa0108c1d",
+                "reference": "89461455b360693da07355460a2597baa0108c1d",
                 "shasum": ""
             },
             "require": {
@@ -445,28 +446,33 @@
                     "name": "James Logsdon",
                     "email": "jlogsdon@php.net",
                     "role": "Developer"
+                },
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "daniel@handbuilt.co",
+                    "role": "Maintainer"
                 }
             ],
             "description": "Console utilities for PHP",
-            "homepage": "http://github.com/jlogsdon/php-cli-tools",
+            "homepage": "http://github.com/wp-cli/php-cli-tools",
             "keywords": [
                 "cli",
                 "console"
             ],
-            "time": "2014-02-01 23:11:00"
+            "time": "2014-06-29 20:40:27"
         },
         {
             "name": "wp-cli/wp-cli",
-            "version": "v0.15.1",
+            "version": "v0.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "3ac507f2d17e18a4be97a5763c0f1d0514c2a13c"
+                "reference": "1e363d53030ff9f1f658fa2b1085ca9c0e2a2c0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/3ac507f2d17e18a4be97a5763c0f1d0514c2a13c",
-                "reference": "3ac507f2d17e18a4be97a5763c0f1d0514c2a13c",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/1e363d53030ff9f1f658fa2b1085ca9c0e2a2c0b",
+                "reference": "1e363d53030ff9f1f658fa2b1085ca9c0e2a2c0b",
                 "shasum": ""
             },
             "require": {
@@ -476,7 +482,7 @@
                 "rhumsaa/array_column": "~1.1",
                 "rmccue/requests": "~1.6",
                 "symfony/finder": "~2.3",
-                "wp-cli/php-cli-tools": "0.9.4-patch46"
+                "wp-cli/php-cli-tools": "0.9.5"
             },
             "require-dev": {
                 "behat/behat": "2.5.*",
@@ -511,7 +517,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2014-05-14 23:36:21"
+            "time": "2014-07-01 00:05:47"
         }
     ],
     "packages-dev": [

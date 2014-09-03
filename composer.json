@@ -30,9 +30,9 @@
     ],
     "require": {
         "wordpress/wordpress": "3.9.2",
-        "composer/installers": "~1.0",
+        "composer/installers": "1.0.*",
         "madebydavid/wordpress-skeleton-config-salter":  "0.0.*",
-        "wp-cli/wp-cli": "v0.15.1"
+        "wp-cli/wp-cli": "0.16.*"
     },
     "autoload": {
         "psr-0": {
