@@ -1,6 +1,6 @@
-# WordpressSkeleton [![Dependency Status](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.0.0/badge.svg)](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.0.0)
+# WordpressSkeleton [![Dependency Status](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.1.0/badge.svg)](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.1.0)
 
-## This is version 1.0.0, using Wordpress 3.9.2
+## This is version 1.1.0, using Wordpress 4.0
 
 ## Wordpress Skeleton using composer. Add plugins and themes from [WordPress Packagist](http://wpackagist.org/).
 
@@ -11,7 +11,7 @@ $ curl -sS https://getcomposer.org/installer | php
 
 #### 2. Use composer to install this project:
 ```bash
-$ php composer.phar create-project --prefer-dist madebydavid/wordpress-skeleton my-wordpress-directory
+$ php composer.phar create-project madebydavid/wordpress-skeleton my-wordpress-directory 1.1.0
 $ cd my-wordpress-directory
 ```
 
