@@ -1,5 +1,7 @@
 # WordpressSkeleton [![Dependency Status](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.0.0/badge.svg)](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.0.0)
 
+## This is version 1.0.0, using Wordpress 3.9.2
+
 ## Wordpress Skeleton using composer. Add plugins and themes from [WordPress Packagist](http://wpackagist.org/).
 
 #### 1. Install composer if required:
