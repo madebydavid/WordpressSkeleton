@@ -16,9 +16,9 @@
             "type": "package",
             "package": {
                 "name": "wordpress/wordpress",
-                "version": "3.9.2",
+                "version": "4.0",
                 "dist": {
-                    "url":"http://wordpress.org/wordpress-3.9.2.zip",
+                    "url":"http://wordpress.org/wordpress-4.0.zip",
                     "type":"zip"
                 },
                 "require": {
@@ -29,7 +29,7 @@
         }
     ],
     "require": {
-        "wordpress/wordpress": "3.9.2",
+        "wordpress/wordpress": "4.0",
         "composer/installers": "1.0.*",
         "madebydavid/wordpress-skeleton-config-salter":  "0.0.*",
         "wp-cli/wp-cli": "0.16.*"
