@@ -1,6 +1,6 @@
 {
     "name": "madebydavid/wordpress-skeleton",
-    "description": "Wordpress Skeleton",
+    "description": "WordPress Skeleton",
     "authors": [
         {
             "name": "madebydavid",
@@ -10,29 +10,14 @@
     "repositories":[
         {
             "type":"composer",
-            "url":"http://wpackagist.org"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "wordpress/wordpress",
-                "version": "4.0",
-                "dist": {
-                    "url":"http://wordpress.org/wordpress-4.0.zip",
-                    "type":"zip"
-                },
-                "require": {
-                    "johnpbloch/wordpress-core-installer": "~0.1"
-                },
-                "type": "wordpress-core"
-	    }
+            "url":"https://wpackagist.org"
         }
     ],
     "require": {
-        "wordpress/wordpress": "4.0",
+        "johnpbloch/wordpress": "4.5.*",
         "composer/installers": "1.0.*",
         "madebydavid/wordpress-skeleton-config-salter":  "0.0.*",
-        "wp-cli/wp-cli": "0.17.*"
+        "wp-cli/wp-cli": "0.23.*"
     },
     "autoload": {
         "psr-0": {

@@ -1,8 +1,8 @@
-# WordpressSkeleton [![Dependency Status](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.1.1/badge.svg)](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.1.1)
+# WordPressSkeleton [![Dependency Status](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.1.2/badge.svg)](http://www.versioneye.com/php/madebydavid:wordpress-skeleton/1.1.2)
 
-## This is version 1.1.1, using Wordpress 4.0
+## This is version 1.1.2, using WordPress 4.5.1
 
-## Wordpress Skeleton using composer. Add plugins and themes from [WordPress Packagist](http://wpackagist.org/).
+## WordPress Skeleton using composer. Add plugins and themes from [WordPress Packagist](http://wpackagist.org/).
 
 #### 1. Install composer if required:
 ```bash
@@ -11,7 +11,7 @@ $ curl -sS https://getcomposer.org/installer | php
 
 #### 2. Use composer to install this project:
 ```bash
-$ php composer.phar create-project madebydavid/wordpress-skeleton my-wordpress-directory 1.1.1
+$ php composer.phar create-project madebydavid/wordpress-skeleton my-wordpress-directory 1.1.2
 $ cd my-wordpress-directory
 ```
 
@@ -37,9 +37,9 @@ $ mysqladmin -uroot create my-wordpress-database
 
 #### 6. Initialize using the included [WP-CLI](http://wp-cli.org/) and you're ready to go.
 ```bash
-$ cd vendor/wp-cli/wp-cli/bin/
-$ ./wp --path=../../../../wordpress/ --url="http://my-wordpress-site/" db reset
-$ ./wp --path=../../../../wordpress/ --url="http://my-wordpress-site/" core install \
+
+$ ./vendor/bin/wp --path=wordpress --url="http://my-wordpress-site/" db reset
+$ ./vendor/bin/wp --path=wordpress --url="http://my-wordpress-site/" core install \
     --admin_user=root --admin_password=password \
     --admin_email=my@email.goes.here.com \
     --title="My Site Title" 
